@@ -6,7 +6,7 @@ import App from './App';
 import { Provider } from 'react-redux'
 import { createStore } from 'redux'
 import * as serviceWorker from './serviceWorker';
-import rootReducer from './reducer'
+import rootReducer from './root.reducer'
 
 ReactDOM.render(
   <Provider store={ createStore(rootReducer)}>
